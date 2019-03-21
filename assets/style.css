@@ -1,17 +1,92 @@
+html {
+    font-size: 10px;
+}
+
 body,
 h1,
 h2,
 h3,
 h4,
-h5 {
-    font-family: "Poppins", sans-serif
+h5,
+h6 {
+    font-family: "Poppins", sans-serif;
 }
 
 body {
-    font-size: 16px;
+    font-size: 1.6rem;
+    max-width: 1920px;
+    margin: 0 auto;
 }
 
-
-.text-uppercase{
+.text-uppercase {
     text-transform: uppercase;
 }
+
+h1 {
+    font-size: 6.4rem;
+}
+
+h2 {
+    font-size: 3.8rem;
+}
+
+h3 {
+    font-size: 3.6rem;
+}
+
+h4 {
+    font-size: 2.4rem;
+}
+
+h5 {
+    font-size: 2.0rem;
+}
+
+h6 {
+    font-size: 1.8rem;
+}
+
+.w3-tiny {
+    font-size: 1.0rem !important
+}
+
+.w3-small {
+    font-size: 1.2rem !important
+}
+
+.w3-medium {
+    font-size: 1.5rem !important
+}
+
+.w3-large {
+    font-size: 1.8rem !important
+}
+
+.w3-xlarge {
+    font-size: 2.4rem !important
+}
+
+.w3-xxlarge {
+    font-size: 3.6rem !important
+}
+
+.w3-xxxlarge {
+    font-size: 4.8rem !important
+}
+
+.w3-jumbo {
+    font-size: 6.4rem !important
+}
+
+
+@media (max-width: 1440px) { 
+    html {
+        font-size: 8px;
+    }
+ }
+
+ @media (max-width: 768px) { 
+    html {
+        font-size: 7px;
+    }
+ }
