@@ -78,8 +78,11 @@ h6 {
     font-size: 6.4rem !important
 }
 
+ .w3-sidebar::-webkit-scrollbar { width: 0 !important }
+ .w3-sidebar { overflow: -moz-scrollbars-none; }
+ .w3-sidebar { -ms-overflow-style: none; }
 
-@media (max-width: 1440px) { 
+ @media (max-width: 1440px) { 
     html {
         font-size: 8px;
     }
